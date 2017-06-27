@@ -1,4 +1,4 @@
-package com.com.seal.gym.context;
+package com.seal.gym.context;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
@@ -16,7 +16,7 @@ import javax.servlet.ServletRegistration;
 
 public class GymWebAppInitializer implements WebApplicationInitializer {
     public void onStartup(ServletContext servletContext) throws ServletException {
-        System.out.println("Start up GYM!!!!!!!!!!!");
+        System.out.println("Start up GYM web app");
         AnnotationConfigWebApplicationContext appContext = new AnnotationConfigWebApplicationContext();
         appContext.scan("com");
         ServletRegistration.Dynamic registration =
