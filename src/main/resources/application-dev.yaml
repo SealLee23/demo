@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:32797/mydatabase?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:32768/mydatabase?useSSL=false&serverTimezone=UTC
     username: root
     password: verysecret
     driver-class-name: com.mysql.cj.jdbc.Driver
